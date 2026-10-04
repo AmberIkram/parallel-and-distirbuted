@@ -1,0 +1,4 @@
+Case,Resolution,Duration_s,Input_bytes,Local_time_s,Remote_worker_path_s,Speedup_factor,Input_MB_per_local_s
+Small_480p,640x360,2,16762,0.167,0.162,1.03,0.1
+Medium_720p,1280x720,4,53565,0.808,0.773,1.05,0.06
+Large_1080p,1920x1080,6,131341,2.461,2.899,0.85,0.05

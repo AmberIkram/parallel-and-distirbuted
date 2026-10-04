@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+server/worker_data/
+client/client_output/
+*.log
+.DS_Store
