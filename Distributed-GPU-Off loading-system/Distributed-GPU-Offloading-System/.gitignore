@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads/Outputs (large files — do not commit)
+uploads/
+outputs/
+
+# Logs
+logs/
+
+# Benchmark results (generated files)
+benchmarks/results/*.csv
+benchmarks/results/*.png
+benchmarks/results/*.json
+
+# Config with secrets
+# config.json  <- keep this for repo but sanitize token
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

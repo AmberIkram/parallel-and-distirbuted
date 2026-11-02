@@ -1,0 +1,27 @@
+# Core server
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+websockets>=13.0
+pydantic>=2.10.0
+httpx>=0.27.0
+
+# Client GUI
+customtkinter>=5.2.2
+Pillow>=10.0.0
+
+# Networking (used by client)
+requests>=2.31.0
+
+# System monitoring
+psutil>=5.9.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+
+# Optional — GPU support (install separately if CUDA is available)
+# torch>=2.0.0   # Uncomment for PyTorch CUDA tensor demo
+
+# Optional — Benchmark charts
+# matplotlib>=3.7.0   # Uncomment for PNG chart generation in benchmarks
